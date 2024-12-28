@@ -9,7 +9,7 @@ const stripePromise = loadStripe("pk_test_12345");
 const PaymentIntegration = () => {
     return (
       <div className="payment-container">
-        <h2 style={{ color: "black" }}>Secure Payment</h2>
+        <h2>Secure Payment</h2>
         {/* <p style={{ color: "black" }}>Make a payment securely using Stripe</p> */}
         <Elements stripe={stripePromise}>
           <CheckoutForm />

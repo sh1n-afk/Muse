@@ -2,15 +2,17 @@
     margin: 40px auto;
     padding: 20px;
     max-width: 600px;
-    background-color: #f5f5f5;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black for better readability */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
+    color: white;
   }
   
   .payment-container h2 {
     margin-bottom: 20px;
     font-size: 1.8rem;
+    color: white;
   }
   
   .payment-button {

@@ -2,14 +2,18 @@
     margin: 40px auto;
     padding: 20px;
     max-width: 600px;
-    background-color: #f5f5f5;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black for better readability */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
   }
   
   .forum-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: white;
   }
   
   .forum-textarea {
@@ -20,6 +24,8 @@
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    color: black; /* Ensure text is visible */
   }
   
   .forum-button {
@@ -43,7 +49,7 @@
   }
   
   .forum-post {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
