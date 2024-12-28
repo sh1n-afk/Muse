@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial+Narrow:wght@400;700&display=swap');
+
+body {
+  font-family: 'Arial Narrow', sans-serif;
+}
+
+.email-label,
+.email-enter-btn {
+  font-family: 'Arial Narrow', sans-serif; /* Ensure EMAIL and ENTER match */
+}
+
+
 .landing-page {
     height: 100vh;
     /* background-image: url("../images/background.jpg"); */
@@ -11,14 +23,72 @@
   }
   
   .logo-image {
-    width: 80%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 1000px;
     height: auto;
     margin: 20px auto; 
   }
 
+  .email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 1.5rem;
+  }
+  
+  .email-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+  }
+  
+  .email-input-line {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 250px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+
+  .email-input-line::placeholder {
+    color: transparent; /* Hides the placeholder to prevent overlapping */
+  }
+  
+  .email-input-line:focus {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none; /* Removes focus border */
+  }
+  
+  .email-enter-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  
+  .email-enter-btn:hover {
+    text-decoration: underline;
+  }
+  /* .logo-image {
+    width: 60%;
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  } */
+  
+
   .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: 0;
     left: 0;
