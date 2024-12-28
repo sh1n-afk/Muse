@@ -8,12 +8,12 @@ import PaymentIntegration from "./components/PaymentIntegration";
 
 const App = () => {
   return (
-    <div className="container">
+    <div>
       <Header />
       <LandingPage />
-      <Forum />
       <ProductSlider />
       <PaymentIntegration />
+      <Forum />
       <Footer />
     </div>
   );

@@ -15,7 +15,7 @@ const Forum = () => {
 
   return (
     <div className="forum-container">
-      <h2>Community Forum</h2>
+      <h2 style={{ color: "black" }}>Community Forum</h2>
       <textarea
         value={newPost}
         onChange={(e) => setNewPost(e.target.value)}

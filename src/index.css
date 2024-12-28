@@ -4,20 +4,42 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f0f0f0;
-  color: #333;
+  background-image: url('../src/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+} */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../src/images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white; 
 }
+
+
+button {
+  color: white;
+}
+
+
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p, label {
   font-weight: bold;
+  color: white;
 }
 
 main {

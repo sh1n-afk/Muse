@@ -13,6 +13,25 @@
   }
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../src/images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+h1, h2, h3, p, label {
+  color: white;
+}
+
+button {
+  color: white; 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

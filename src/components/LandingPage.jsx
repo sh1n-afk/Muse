@@ -1,13 +1,17 @@
 import React from "react";
 import "../styles/LandingPage.css";
-
+import logoImage from "../images/rooted-in-ignorance.png"; // Make sure this path is correct!
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
       <div className="overlay">
         <div className="content">
-          <h1>Rooted in Ignorance</h1>
+          <img
+            src={logoImage}
+            alt="Rooted in Ignorance"
+            className="logo-image"
+          />
           <div className="links">
             <a href="#shop">Shop</a>
             <a href="#media">Media</a>
